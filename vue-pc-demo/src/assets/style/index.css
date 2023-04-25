@@ -1,0 +1,197 @@
+.query-form-input {
+  width: 90% !important;
+}
+
+.edit-form-input {
+  width: 350px;
+}
+
+.danger {
+  color: red;
+}
+
+.danger:disabled {
+  color: #bfcbd9;
+}
+
+.el-table {
+  box-shadow: 0px 4px 10px #DDDDDD !important;
+}
+
+.el-table .el-table__header-wrapper .has-gutter .cell {
+  font-weight: 400;
+  color: #333333;
+}
+
+.el-table .el-table__fixed-header-wrapper .cell {
+  font-weight: 400;
+  color: #333333;
+}
+
+.el-table .el-table__row .cell {
+  color: #777777;
+}
+
+.el-table .el-table__row .cell .el-button--mini {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.action-row-middle .el-form-item__label {
+  width: 80px;
+}
+
+.action-row-middle .el-form-item__content {
+  margin-left: 80px;
+}
+
+.pagination {
+  padding-right: 0 !important;
+}
+
+.el-button--primary {
+  background-color: #1c84c6;
+  border-color: #1c84c6;
+}
+
+.el-button--primary[disabled] {
+  background-color: #e1e1e4 !important;
+  border-color: #becfb9 !important;
+}
+
+.btn-query {
+  background-color: #1ab394 !important;
+  border-color: #1ab394 !important;
+}
+
+.btn-query:hover {
+  background-color: #1bcba7 !important;
+  border-color: #1bcba7 !important;
+}
+
+.btn-query[disabled] {
+  background-color: #e1e1e4 !important;
+  border-color: #becfb9 !important;
+}
+
+.text-btn-query:hover {
+  color: #1bcba7 !important;
+}
+
+.text-btn-query[disabled] {
+  color: #e1e1e4 !important;
+}
+
+.top-action .el-form-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.top-action .el-form-item .el-form-item__label {
+  width: auto !important;
+  min-width: 68px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left !important;
+}
+
+.top-action .el-form-item .el-form-item__content {
+  margin-left: 0 !important;
+}
+
+.el-input__inner {
+  border-color: #dadde4;
+}
+
+.el-input__inner:focus {
+  border-color: #1c84c6;
+}
+
+.el-input--prefix .el-input__inner {
+  text-indent: 15px;
+  padding-left: 15px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.appnav {
+  padding: 10px 0px 2px 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.appheader {
+  padding-left: 50px;
+}
+
+.appfooter {
+  text-align: center;
+  color: darkgray;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.description {
+  color: darkgray;
+}
+
+#app {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.pagination {
+  margin-top: 14px;
+  text-align: right;
+  padding-right: 25px;
+}
+
+.page-table {
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.el-table__header-wrapper {
+  border: 1px solid #DFDFDF;
+}
+
+.el-table__fixed-header-wrapper {
+  border: 1px solid #DFDFDF;
+}
+
+thead tr {
+  background-color: #F0F0F0 !important;
+}
+
+thead tr th {
+  background-color: #F0F0F0 !important;
+}
+
+thead tr th .cell {
+  background-color: #F0F0F0 !important;
+  color: black;
+}
+
+.el-table {
+  box-shadow: 4px 4px 10px #DDDDDD;
+}
+
+.link-field {
+  cursor: pointer;
+}
+
+.el-table .paused-task .cell {
+  color: red;
+  font-weight: bold;
+}
+
+.el-table .normal-task {
+  background: auto;
+  color: auto;
+}

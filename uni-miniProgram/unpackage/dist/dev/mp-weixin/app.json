@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/assistant/index",
+    "pages/center/index",
+    "pages/analyze/index",
+    "pages/mine/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "工作",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/work.png",
+        "selectedIconPath": "static/images/workactive.png"
+      },
+      {
+        "text": "助手",
+        "pagePath": "pages/assistant/index",
+        "iconPath": "static/images/assistant.png",
+        "selectedIconPath": "static/images/assistantactive.png"
+      },
+      {
+        "text": "二维码",
+        "pagePath": "pages/center/index",
+        "iconPath": "static/images/assistant.png",
+        "selectedIconPath": "static/images/assistantactive.png"
+      },
+      {
+        "text": "分析",
+        "pagePath": "pages/analyze/index",
+        "iconPath": "static/images/analyze.png",
+        "selectedIconPath": "static/images/analyzeactive.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/images/mine.png",
+        "selectedIconPath": "static/images/mineactive.png"
+      }
+    ],
+    "midButton": {
+      "width": "80rpx",
+      "height": "80rpx",
+      "text": "添加",
+      "iconPath": "static/images/add.png",
+      "iconWidth": "50rpx"
+    }
+  },
+  "usingComponents": {
+    "tabbar": "/components/Tabbar",
+    "my-dialog": "/components/MyDialog"
+  }
+}

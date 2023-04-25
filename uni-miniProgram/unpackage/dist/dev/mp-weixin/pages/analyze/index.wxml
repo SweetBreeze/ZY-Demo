@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><text class="title">{{title}}</text></view><tabbar vue-id="ac7532c0-1" current-page="{{3}}" bind:__l="__l"></tabbar></view>
